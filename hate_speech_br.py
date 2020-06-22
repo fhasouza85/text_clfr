@@ -10,7 +10,7 @@ from sklearn.metrics import confusion_matrix
 from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 
-data = pd.read_csv('datasets/stack_questions.csv')
+data = pd.read_csv('stack_questions.csv')
 
 # Removing stop words from the question titles
 stop = stopwords.words('english')
